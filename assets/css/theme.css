@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Neucha&display=swap');
+
+/*
+font-family: 'Neucha', cursive;
+
+*/
+body {
+  font-family: 'Neucha', cursive;
+}
+
+a.nav-link {
+  text-transform: uppercase;
+}
+
+.hand-drawn button {
+  align-self: center;
+  background: #d11141;
+  padding: 0.5rem 1rem 0.4rem;
+  transition: all 0.5s ease;
+  color: #fff;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  /*
+   Above is shorthand for:
+   border-top-left-radius: 255px 15px;
+   border-top-right-radius: 15px 225px;
+   border-bottom-right-radius: 225px 15px;
+   border-bottom-left-radius:15px 255px;
+   */
+}
+
+.hand-drawn button:hover {
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, .3);
+}
+
+.hand-drawn button.lined.thin {
+  border: solid 2px #41403e;
+}
+
+.sm .hand-drawn button {
+  align-self: center;
+  background: #fff;
+  padding: 0.25rem 0.9rem 0.1rem;
+  transition: all 0.5s ease;
+  color: #333;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  /*
+   Above is shorthand for:
+   border-top-left-radius: 255px 15px;
+   border-top-right-radius: 15px 225px;
+   border-bottom-right-radius: 225px 15px;
+   border-bottom-left-radius:15px 255px;
+   */
+}
+
+.sm .hand-drawn button:hover {
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, .3);
+}
+
+.sm .hand-drawn button.lined.thin {
+  border: solid 2px #41403e;
+}
+
+.lg .hand-drawn button {
+  font-size: 1.5rem;
+  align-self: center;
+  background: #fff;
+  padding: 0.95rem 1.25rem 0.65rem;
+  transition: all 0.5s ease;
+  color: #333;
+  outline: none;
+  box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2);
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+  /*
+   Above is shorthand for:
+   border-top-left-radius: 255px 15px;
+   border-top-right-radius: 15px 225px;
+   border-bottom-right-radius: 225px 15px;
+   border-bottom-left-radius:15px 255px;
+   */
+}
+
+.lg .hand-drawn button:hover {
+  box-shadow: 2px 8px 4px -6px rgba(0, 0, 0, .3);
+}
+
+.lg .hand-drawn button.lined.thin {
+  border: solid 2px #41403e;
+}
+
+.jagged-border {
+  transition: all 0.5s ease;
+  color: #41403e;
+  border: solid 2px rgba(0, 0, 0, 0.6);
+  outline: none;
+  /* box-shadow: 20px 38px 34px -26px rgba(0, 0, 0, .2); */
+  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+}
+
+.navbar>.container {
+  padding: 0.5rem 1.2rem 0.4rem;
+}
+
+.stitched {
+  padding: 20px;
+  margin: 10px;
+  background: #ff0030;
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  line-height: 1.3em;
+  border: 2px dashed #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 0 4px #6d0019, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+  text-shadow: -1px -1px #aa3030;
+  font-weight: normal;
+}
+
+.gradient {
+  background: #a90329;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #a90329 0%, #8f0222 44%, #6d0019 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a90329', endColorstr='#6d0019', GradientType=0);
+  /* IE6-9 */
+}
+
+.features p {
+  line-height: 1.25rem;
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+
+.contact .form-control-custom {
+    border: 0.1rem solid #dfe1e5;
+    width: 100%;
+    padding: 1rem;
+    font-size: .9rem;
+    color: #696b6e;
+    border-radius: .3rem;
+}
+
+.contact .form-control-custom:focus {
+    border: 0.1rem solid #d11141;
+    outline: none;
+}
